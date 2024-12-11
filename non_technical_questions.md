@@ -21,3 +21,18 @@ In addition to my technical skills, I thrive in collaborative environments, adap
 
 **Example Response:**  
 "If I miss a deadline, I prioritize communicating promptly with my manager, explaining the reason for the delay, and presenting a plan to finish the task quickly. I also analyze the cause of the delay to avoid it in the future."
+
+### Question 4: What is your English level?
+
+**Example Response:**  
+"I don't have an advanced English level, but I can understand and read technical documentation, use tools for formal writing, and I am currently practicing English daily to improve."
+
+### Question 5: How do you handle stress or pressure at work?
+
+**Example Response:**  
+"I manage stress by breaking tasks into smaller, manageable parts and prioritizing them effectively. I also practice mindfulness and take short breaks to stay focused. When under pressure, I focus on what can be controlled and work proactively to resolve the situation."
+
+### Question 6: What motivates you to perform well in your job?
+
+**Example Response:**  
+"My motivation comes from achieving results that make a tangible impact. I enjoy solving challenging problems, learning new skills, and contributing to a team's success. Additionally, positive feedback and recognition for my work inspire me to keep improving."
