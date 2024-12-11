@@ -1,16 +1,18 @@
 title: "HR Questions Guide"
-description: "A collection of common HR interview questions with sample answers."
+description: "A collection of common HR interview questions with sample answers, divided into non-technical and technical categories."
 author: "John"
-theme: minimal-mistakes-jekyll
+email: "xiaozhouzhou20221007@gmail.com"
+theme: jekyll-theme-cayman
 markdown: kramdown
+highlighter: rouge
 
 header_pages:
   - title: "Home"
     url: "/"
   - title: "Non-Technical Questions"
-    url: "/non_technical_questions/"
+    url: "/non_technical_questions.md"
   - title: "Technical Questions"
-    url: "/technical_questions/"
+    url: "/technical_questions.md"
 
 social_links:
   github: "https://github.com/hongzz0618"
