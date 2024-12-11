@@ -19,3 +19,18 @@ description: "A set of technical interview questions with answers, focusing on b
 
 **Example Response:**  
 "I follow top YouTubers, subscribe to blogs, and attend webinars to stay updated with the latest technology trends."
+
+### Question 4: What is Node.js and why is it commonly used for backend development?
+
+**Example Response:**  
+"Node.js is an open-source JavaScript runtime built on Chrome's V8 engine. It's widely used for backend development because it’s non-blocking and event-driven, which allows it to handle many requests simultaneously. This makes it ideal for real-time applications like chat apps or APIs that need to process many I/O operations without slowing down."
+
+### Question 5: How does AWS Lambda work, and what are its main benefits?
+
+**Example Response:**  
+"AWS Lambda is a serverless service that lets you run code without managing servers. You upload your code, and Lambda automatically handles scaling based on incoming requests. Its key benefits are cost efficiency (you only pay for compute time), automatic scaling, and no server management. Lambda is perfect for event-driven tasks like API requests, file uploads, or database triggers."
+
+### Question 6: What is the best architecture for small Node.js applications using AWS?
+
+**Example Response:**  
+"For small Node.js apps, a serverless architecture is often the best choice. Using AWS Lambda with API Gateway allows you to run code in response to HTTP requests without managing servers. This setup automatically scales based on traffic, and combined with services like DynamoDB for storage and S3 for files, it offers a cost-effective and low-maintenance solution ideal for small apps."
