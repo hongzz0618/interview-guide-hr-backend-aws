@@ -156,8 +156,25 @@ body {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .logo i {
+    font-size: 18px;
+  }
+
   .hamburger {
     display: block;
+  }
+
+  .hamburger i {
+    font-size: 22px;
   }
 
   .nav-links {
@@ -175,12 +192,24 @@ body {
     display: flex;
   }
 
-  .nav-links li {
-    padding: 10px 20px;
+  .nav-links a {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 
-  .nav-links a {
-    text-align: left;
-    font-size: 1.1em;
+  .nav-links li {
+    padding: 8px 16px;
+  }
+
+  .site-footer {
+    font-size: 12px;
+  }
+
+  .social-links a {
+    font-size: 14px;
+  }
+
+  .main-content {
+    padding: 10px;
   }
 }
