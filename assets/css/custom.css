@@ -1,50 +1,138 @@
-.site-footer {
-  background-color: #157878;
-  color: #ffffff;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 14px;
+/* Global Styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.footer-container {
-  max-width: 800px;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #157878;
+  outline: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styling */
+.page-header {
+  background-color: #157878;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+.page-header h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.author-info p {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.header-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #157878;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #5d6d7e;
+  color: white;
+}
+
+/* Navigation Styles */
+.navigation {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+
+.header-pages {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.header-pages li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.header-pages a {
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
 }
 
 .social-links {
   list-style: none;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .social-links li {
   display: inline-block;
+  margin: 0 15px;
 }
 
 .social-links a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
+  font-size: 1.1em;
+  color: white;
 }
 
 .social-links a:hover {
-  color: #d4d4d4;
+  color: #157878;
 }
 
-.social-links i {
-  margin-right: 5px;
+.site-footer-owner,
+.site-footer-credits {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 15px;
 }
 
-.footer-owner {
-  margin-top: 10px;
-  color: #ffffff;
+.site-footer-owner a,
+.site-footer-credits a {
+  color: #157878;
 }
 
-.footer-credits {
-  margin-top: 5px;
-  font-size: 12px;
-  color: #d4d4d4;
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
 }

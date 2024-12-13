@@ -14,9 +14,9 @@ header_pages:
   - title: "Home"
     url: "/"
   - title: "Non-Technical Questions"
-    url: "/non_technical_questions/"
+    url: "/non_technical_questions.md"
   - title: "Technical Questions"
-    url: "/technical_questions/"
+    url: "/technical_questions.md"
 
 plugins:
   - jekyll-seo-tag
