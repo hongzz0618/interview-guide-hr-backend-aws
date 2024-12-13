@@ -28,7 +28,8 @@ a:focus {
 
 /* Navigation Styling */
 .navbar {
-  background-color: #ffffff;
+  background-color: #333;
+  color: white;
   padding: 8px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -44,7 +45,7 @@ a:focus {
 }
 
 .logo {
-  color: #333;
+  color: white;
   font-size: 1.5em;
   font-weight: bold;
   margin-right: auto;
@@ -54,7 +55,7 @@ a:focus {
   display: none;
   background: none;
   border: none;
-  color: #333;
+  color: white;
   font-size: 1.5em;
   cursor: pointer;
   margin-left: auto;
@@ -73,7 +74,7 @@ a:focus {
 
 .nav-links a {
   font-size: 1em;
-  color: #333;
+  color: white;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -156,7 +157,7 @@ body {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #333;
     position: absolute;
     top: 100%;
     left: 0;
