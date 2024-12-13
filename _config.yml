@@ -1,5 +1,7 @@
 title: "HR Questions Guide"
 description: "A collection of common HR interview questions with sample answers, divided into non-technical and technical categories."
+baseurl: "/english-hr-questions-guide"
+url: "https://hongzz0618.github.io"
 author: "John"
 email: "xiaozhouzhou20221007@gmail.com"
 social_links:
@@ -13,9 +15,9 @@ header_pages:
   - title: "Home"
     url: "/"
   - title: "Non-Technical Questions"
-    url: "/non_technical_questions.md"
+    url: "/non_technical_questions.html"
   - title: "Technical Questions"
-    url: "/technical_questions.md"
+    url: "/technical_questions.html"
 
 plugins:
   - jekyll-seo-tag
