@@ -124,6 +124,10 @@ body {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+  body {
+    padding-top: 160px;
+  }
+
   .navigation {
     padding: 10px 0;
   }

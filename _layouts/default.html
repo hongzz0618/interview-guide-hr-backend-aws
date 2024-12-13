@@ -47,7 +47,9 @@
       <div class="container">
         <ul class="header-pages">
           {% for page in site.header_pages %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          <li>
+            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+          </li>
           {% endfor %}
         </ul>
       </div>
