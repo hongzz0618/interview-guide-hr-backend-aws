@@ -66,28 +66,6 @@ body {
   padding-top: 60px;
 }
 
-/* Header Styling */
-.page-header {
-  background-color: #157878;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.page-header h1 {
-  font-size: 2.2em;
-  font-weight: 700;
-  margin: 0.5em 0;
-}
-
-.page-header h2 {
-  font-size: 1.3em;
-  margin-bottom: 20px;
-  font-weight: 400;
-  color: #e0e0e0;
-}
-
 /* Footer Styling */
 .site-footer {
   background-color: #333;
@@ -159,14 +137,6 @@ body {
     font-size: 1.1em;
   }
 
-  .page-header h1 {
-    font-size: 2em;
-  }
-
-  .page-header h2 {
-    font-size: 1.3em;
-  }
-
   .site-footer {
     padding: 30px 15px;
   }
@@ -175,18 +145,6 @@ body {
 @media screen and (max-width: 480px) {
   .navigation {
     padding: 8px 0;
-  }
-
-  .page-header {
-    padding: 30px 10px;
-  }
-
-  .page-header h1 {
-    font-size: 1.8em;
-  }
-
-  .page-header h2 {
-    font-size: 1.2em;
   }
 
   .header-pages li {
