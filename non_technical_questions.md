@@ -31,3 +31,18 @@ In addition to my technical skills, I thrive in collaborative environments, adap
 
 **Example Response:**  
 "My motivation comes from achieving results that make a tangible impact. I enjoy solving challenging problems, learning new skills, and contributing to a team's success. Additionally, positive feedback and recognition for my work inspire me to keep improving."
+
+## Question 7: What are your salary expectations?
+
+**Example Response:**  
+"Considering my experience and the industry benchmarks, I am seeking a salary in the range of 50-60k. That said, I am open to discussions to ensure the offer aligns with the role's responsibilities and the company's expectations."
+
+## Question 8:What do you want to ask us?
+
+**Example Response:**  
+"Could you share the key skills and attributes that a successful candidate should demonstrate during the first six months in this role?"
+
+## Question 9: What do you do in your free time?
+
+**Example Response:**  
+"In addition to exploring technology-related interests, I enjoy savoring delicious food, traveling with my girlfriend, and occasionally working out to maintain a balanced and healthy lifestyle."
