@@ -1,0 +1,16 @@
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
