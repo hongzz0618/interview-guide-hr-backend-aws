@@ -2,6 +2,9 @@ title: "HR Questions Guide"
 description: "A collection of common HR interview questions with sample answers, divided into non-technical and technical categories."
 author: "John"
 email: "xiaozhouzhou20221007@gmail.com"
+social_links:
+  github: "https://github.com/hongzz0618"
+  linkedin: "https://www.linkedin.com/in/hongzz"
 theme: jekyll-theme-cayman
 markdown: kramdown
 highlighter: rouge
@@ -13,10 +16,6 @@ header_pages:
     url: "/non_technical_questions/"
   - title: "Technical Questions"
     url: "/technical_questions/"
-
-social_links:
-  github: "https://github.com/hongzz0618"
-  linkedin: "https://www.linkedin.com/in/hongzz"
 
 plugins:
   - jekyll-seo-tag
