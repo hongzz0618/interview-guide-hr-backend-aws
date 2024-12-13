@@ -55,17 +55,6 @@ a:focus {
   color: #666;
 }
 
-.header-buttons a {
-  display: inline-block;
-  margin: 15px;
-  padding: 12px 24px;
-  font-size: 1.1em;
-  border-radius: 6px;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
 .btn-primary {
   background-color: #157878;
   color: white;
@@ -74,11 +63,6 @@ a:focus {
 .btn-secondary {
   background-color: #5d6d7e;
   color: white;
-}
-
-.header-buttons a:hover {
-  background-color: #125d58;
-  transform: translateY(-2px);
 }
 
 /* Navigation Styles */
@@ -175,11 +159,6 @@ a:focus {
 
   .page-header h2 {
     font-size: 1.4em;
-  }
-
-  .header-buttons a {
-    font-size: 1em;
-    padding: 10px 20px;
   }
 
   .header-pages li {

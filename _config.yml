@@ -5,7 +5,6 @@ email: "xiaozhouzhou20221007@gmail.com"
 social_links:
   github: "https://github.com/hongzz0618"
   linkedin: "https://www.linkedin.com/in/hongzz"
-show_downloads: true
 theme: jekyll-theme-cayman
 markdown: kramdown
 highlighter: rouge
