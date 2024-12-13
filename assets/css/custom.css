@@ -115,19 +115,16 @@ body {
   color: #157878;
 }
 
-.site-footer-owner,
-.site-footer-credits {
+.site-footer-owner {
   font-size: 1em;
   margin-top: 20px;
 }
 
-.site-footer-owner a,
-.site-footer-credits a {
+.site-footer-owner a {
   color: #157878;
 }
 
-.site-footer-owner a:hover,
-.site-footer-credits a:hover {
+.site-footer-owner a:hover {
   text-decoration: underline;
 }
 
