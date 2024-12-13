@@ -27,7 +27,7 @@ a:focus {
 }
 
 /* Navigation Styling */
-.navigation {
+.navbar {
   background-color: #ffffff;
   padding: 8px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -38,27 +38,47 @@ a:focus {
   border-bottom: 2px solid #e0e0e0;
 }
 
-.header-pages {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-  margin: 0;
+.nav-left {
+  display: flex;
+  align-items: center;
 }
 
-.header-pages li {
-  display: inline-block;
+.logo {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
   margin: 0 15px;
 }
 
-.header-pages a {
+.nav-links a {
   font-size: 1em;
   color: #333;
-  text-transform: uppercase;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
-.header-pages a:hover {
+.nav-links a:hover {
   color: #157878;
 }
 
@@ -125,33 +145,47 @@ body {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   body {
-    padding-top: 160px;
-  }
-
-  .navigation {
-    padding: 10px 0;
-  }
-
-  .header-pages li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .header-pages a {
-    font-size: 1.1em;
+    padding-top: 100px;
   }
 
   .site-footer {
     padding: 30px 15px;
   }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    text-align: left;
+    font-size: 1.1em;
+    padding: 10px 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .navigation {
+  .nav-links a {
+    font-size: 1em;
     padding: 8px 0;
   }
 
-  .header-pages li {
-    margin: 5px 0;
+  body {
+    padding-top: 80px;
   }
 }
