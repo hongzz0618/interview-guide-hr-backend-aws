@@ -12,8 +12,6 @@ markdown: kramdown
 highlighter: rouge
 
 header_pages:
-  - title: "Home"
-    url: "/"
   - title: "Non-Technical Questions"
     url: "/non_technical_questions.html"
   - title: "Technical Questions"
