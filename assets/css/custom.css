@@ -17,7 +17,6 @@ a {
 a:hover,
 a:focus {
   color: #157878;
-  outline: none;
 }
 
 .container {
@@ -30,13 +29,13 @@ a:focus {
 /* Navigation Styling */
 .navigation {
   background-color: #ffffff;
-  padding: 12px 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  transition: top 0.3s ease;
+  border-bottom: 2px solid #e0e0e0;
 }
 
 .header-pages {
@@ -48,21 +47,20 @@ a:focus {
 
 .header-pages li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .header-pages a {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #333;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .header-pages a:hover {
   color: #157878;
 }
-
 
 body {
   padding-top: 60px;
@@ -72,20 +70,20 @@ body {
 .page-header {
   background-color: #157878;
   color: white;
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .page-header h1 {
-  font-size: 2.8em;
+  font-size: 2.2em;
   font-weight: 700;
   margin: 0.5em 0;
 }
 
 .page-header h2 {
-  font-size: 1.6em;
-  margin-bottom: 25px;
+  font-size: 1.3em;
+  margin-bottom: 20px;
   font-weight: 400;
   color: #e0e0e0;
 }
@@ -148,12 +146,8 @@ body {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-  .page-header h1 {
-    font-size: 2.2em;
-  }
-
-  .page-header h2 {
-    font-size: 1.4em;
+  .navigation {
+    padding: 10px 0;
   }
 
   .header-pages li {
@@ -161,11 +155,41 @@ body {
     margin: 10px 0;
   }
 
-  .social-links li {
-    margin: 0 10px;
+  .header-pages a {
+    font-size: 1.1em;
+  }
+
+  .page-header h1 {
+    font-size: 2em;
+  }
+
+  .page-header h2 {
+    font-size: 1.3em;
   }
 
   .site-footer {
     padding: 30px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    padding: 8px 0;
+  }
+
+  .page-header {
+    padding: 30px 10px;
+  }
+
+  .page-header h1 {
+    font-size: 1.8em;
+  }
+
+  .page-header h2 {
+    font-size: 1.2em;
+  }
+
+  .header-pages li {
+    margin: 5px 0;
   }
 }
