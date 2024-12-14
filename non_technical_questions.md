@@ -1,48 +1,54 @@
 # Non-Technical HR Questions
 
-## Question 1: Can you tell us about yourself?
+## **1: Can you tell us about yourself?**
 
-**Example Response:**  
-"I am a Software Engineer with 5 years of experience in backend development, specializing in Node.js, TypeScript, and JavaScript, with a focus on serverless architectures and AWS cloud solutions. I’m passionate about solving complex problems, building scalable systems, and improving efficiency.
+"I am a Software Engineer with 5 years of experience specializing in backend development, particularly with Node.js, TypeScript, and JavaScript, in serverless architectures and AWS cloud solutions. I am passionate about solving complex problems, creating scalable systems, and optimizing workflows for greater efficiency.  
+I thrive in collaborative settings, enjoy tackling new challenges, and take pride in mentoring teams to deliver impactful solutions."
 
-In addition to my technical skills, I thrive in collaborative environments, adapt well to challenges, and take pride in mentoring teams to deliver impactful results."
+---
 
-## Question 2: Why do you want to work at our company?
+## **2: Why do you want to work at our company?**
 
-**Example Response:**  
-"After reviewing your job offer, I believe my skills and experience align well with the role's requirements, and I am genuinely excited about the opportunity to be part of your company."
+"After reviewing the job offer and researching your company, I am excited by the opportunity to contribute to a team that values innovation and growth. My skills align well with the role’s requirements, and I am eager to bring my experience in backend development and cloud solutions to help your team achieve its goals."
 
-## Question 3: What would you do if you missed a deadline?
+---
 
-**Example Response:**  
-"If I miss a deadline, I prioritize communicating promptly with my manager, explaining the reason for the delay, and presenting a plan to finish the task quickly. I also analyze the cause of the delay to avoid it in the future."
+## **3: What would you do if you missed a deadline?**
 
-## Question 4: What is your English level?
+"If I missed a deadline, I would first communicate with my manager to explain the cause of the delay and present a clear plan for completing the task promptly. I would also review the situation to understand the root cause and implement strategies to prevent similar issues in the future."
 
-**Example Response:**  
-"I don't have an advanced English level, but I can understand and read technical documentation, use tools for formal writing, and I am currently practicing English daily to improve."
+---
 
-## Question 5: How do you handle stress or pressure at work?
+## **4: What is your English level?**
 
-**Example Response:**  
-"I manage stress by breaking tasks into smaller, manageable parts and prioritizing them effectively. I also practice mindfulness and take short breaks to stay focused. When under pressure, I focus on what can be controlled and work proactively to resolve the situation."
+"My English is at an intermediate level. I am comfortable reading and understanding technical documentation, writing formal emails with the aid of tools, and participating in conversations. I’m also actively improving my English through daily practice to enhance my communication skills."
 
-## Question 6: What motivates you to perform well in your job?
+---
 
-**Example Response:**  
-"My motivation comes from achieving results that make a tangible impact. I enjoy solving challenging problems, learning new skills, and contributing to a team's success. Additionally, positive feedback and recognition for my work inspire me to keep improving."
+## **5: How do you handle stress or pressure at work?**
 
-## Question 7: What are your salary expectations?
+"I handle stress by breaking down tasks into smaller, manageable pieces and prioritizing them effectively. I find that mindfulness techniques and taking regular breaks help me maintain focus. Under pressure, I concentrate on what I can control and focus on proactive solutions to resolve the situation."
 
-**Example Response:**  
-"Considering my experience and the industry benchmarks, I am seeking a salary in the range of 50-60k. That said, I am open to discussions to ensure the offer aligns with the role's responsibilities and the company's expectations."
+---
 
-## Question 8:What do you want to ask us?
+## **6: What motivates you to perform well in your job?**
 
-**Example Response:**  
-"Could you share the key skills and attributes that a successful candidate should demonstrate during the first six months in this role?"
+"I’m motivated by the opportunity to make a real impact through my work, whether by solving complex problems or contributing to a team’s success. I also thrive on learning new skills, receiving positive feedback, and seeing the tangible results of my contributions."
 
-## Question 9: What do you do in your free time?
+---
 
-**Example Response:**  
-"In addition to exploring technology-related interests, I enjoy savoring delicious food, traveling with my girlfriend, and occasionally working out to maintain a balanced and healthy lifestyle."
+## **7: What are your salary expectations?**
+
+"Given my experience and the industry standards, I am expecting a salary in the range of 50-60k. However, I am flexible and open to discussing the offer further to ensure it is in line with the responsibilities of the role and the company's expectations."
+
+---
+
+## **8: What do you want to ask us?**
+
+"Could you tell me about the key challenges a successful candidate would face during the first six months in this role? Additionally, how does the company support the professional growth and development of its team members?"
+
+---
+
+## **9: What do you do in your free time?**
+
+"In my free time, I enjoy exploring new technology trends and staying updated on industry developments. I also love traveling with my girlfriend, indulging in culinary experiences, and staying active with workouts to maintain a balanced lifestyle."
