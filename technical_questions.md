@@ -29,3 +29,23 @@
 
 **Example Response:**  
 "For small Node.js apps, a serverless architecture is often the best choice. Using AWS Lambda with API Gateway allows you to run code in response to HTTP requests without managing servers. This setup automatically scales based on traffic, and combined with services like DynamoDB for storage and S3 for files, it offers a cost-effective and low-maintenance solution ideal for small apps."
+
+## Question 7: What is the best practice to manage a growing monolithic architecture with 1000+ files of code?
+
+**Example Response:**  
+"The best approach is to shift to a microservices architecture, where the monolith is broken into smaller, independent services. This enhances scalability, maintainability, and resilience. Changes in one service don’t affect others, limiting issues to individual services and reducing system-wide downtime. You can update and deploy services independently without impacting the entire system."
+
+## Question 8: What are the advantages of a monolithic architecture?
+
+**Example Response:**  
+"Monolithic architecture is simpler to develop and test, especially for small applications. All components are in one codebase, so there's no need for complex inter-service communication. It's easier to debug and can be more efficient for smaller systems, as there’s less overhead."
+
+## Question 9: What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?
+
+**Example Response:**  
+To avoid timeouts with large data in Lambda, use **SQS** or **Step Functions**:
+
+- **SQS**: Send tasks to an SQS queue for asynchronous processing, avoiding API Gateway timeouts.
+- **Step Functions**: Break the task into smaller steps, allowing multiple Lambdas to process data without hitting time limits.
+
+Both methods prevent 504 timeouts by handling data processing in the background.
