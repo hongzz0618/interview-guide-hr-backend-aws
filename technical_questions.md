@@ -50,9 +50,70 @@
 
 ## **9. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?**
 
-"To avoid timeouts with large data in Lambda, use **SQS** or **Step Functions**:
+"To avoid timeouts with large data in Lambda, use SQS or Step Functions:
 
-- **SQS**: Send tasks to an SQS queue for asynchronous processing, avoiding API Gateway timeouts.
-- **Step Functions**: Break the task into smaller steps, allowing multiple Lambdas to process data without hitting time limits.
+- SQS: Send tasks to an SQS queue for asynchronous processing, avoiding API Gateway timeouts.
+- Step Functions: Break the task into smaller steps, allowing multiple Lambdas to process data without hitting time limits.
 
 Both methods prevent 504 timeouts by handling data processing in the background."
+
+---
+
+## **10. Why use Serverless? What are its advantages?**
+
+"Serverless eliminates infrastructure management, automatically scales with demand, and reduces costs by charging only for actual usage. It's ideal for building scalable, event-driven applications quickly, allowing developers to focus on writing code instead of managing servers."
+
+---
+
+## **11. What does Infrastructure as Code (IaC) mean?**
+
+"Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure using code instead of manual processes. It allows developers to define servers, networks, databases, and other resources in configuration files, making deployments consistent, repeatable, and version-controlled. Tools like Terraform, AWS CloudFormation, and Ansible are commonly used for IaC."
+
+---
+
+### **12. How does the 3-Tier Architecture pattern work?**
+
+"The 3-Tier Architecture separates an application into three layers:
+
+1. Presentation Tier: The front-end or user interface (UI) that interacts with the user.
+2. Logic Tier: The back-end or business logic layer where data processing and application logic occur.
+3. Data Tier: The database layer where data is stored and managed.
+
+This separation helps organize code, making it more scalable, maintainable, and easier to manage."
+
+---
+
+### **13. How does the Hexagonal Architecture pattern work?**
+
+"Hexagonal Architecture separates the core business logic of an application from external systems (like databases or APIs).
+
+- Core: The central business logic.
+- Ports: Interfaces that allow external systems to communicate with the core.
+- Adapters: Implementations that connect the core to external systems.
+
+This makes the app easier to maintain, test, and adapt to new technologies."
+
+---
+
+### **14. How does the MVC pattern work?**
+
+"MVC (Model-View-Controller) splits an app into three parts:
+
+1. Model: Manages data and business logic.
+2. View: Displays data to the user.
+3. Controller: Handles user input and updates the model or view.
+
+This separation makes the code easier to manage and scale."
+
+---
+
+### **15. How does Clean Architecture work?**
+
+"Clean Architecture separates an application into layers to keep the core business logic independent of external factors. The layers are:
+
+1. Entities: Core business models.
+2. Use Cases: Application-specific logic.
+3. Interface Adapters: Convert data between external systems (like UI or database) and core logic.
+4. Frameworks & Drivers: External tools and frameworks.
+
+This structure ensures flexibility, maintainability, and testability by keeping the core logic isolated from outside changes."
