@@ -8,22 +8,22 @@ body {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.3s ease;
-}
-
-a:hover,
-a:focus {
-  color: #157878;
-}
-
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+a {
+  color: #5c6bc0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #3f51b5;
 }
 
 /* Navigation Styling */
@@ -72,17 +72,6 @@ a:focus {
   margin: 0 15px;
 }
 
-.nav-links a {
-  font-size: 1em;
-  color: white;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #157878;
-}
-
 body {
   padding-top: 60px;
 }
@@ -107,40 +96,14 @@ body {
   margin: 0 10px;
 }
 
-.social-links a {
-  font-size: 1.1em;
-  color: white;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: #157878;
-}
-
 .site-footer-owner {
   font-size: 0.9em;
   margin-top: 10px;
 }
 
-.site-footer-owner a {
-  color: #157878;
-}
-
-.site-footer-owner a:hover {
-  text-decoration: underline;
-}
-
 .site-footer-credits {
   font-size: 0.8em;
   margin-top: 10px;
-}
-
-.site-footer-credits a {
-  color: #157878;
-}
-
-.site-footer-credits a:hover {
-  text-decoration: underline;
 }
 
 .sr-only {
