@@ -2,16 +2,36 @@
 
 ## Table of Contents
 
-- [Architecture and Design Patterns](#architecture-and-design-patterns)
-- [AWS and Serverless](#aws-and-serverless)
-- [Debugging and Problem Solving](#debugging-and-problem-solving)
-- [General Development Practices](#general-development-practices)
+- [1. Architecture and Design Patterns](#1-architecture-and-design-patterns)
+  - [1.1. How does the 3-Tier Architecture pattern work?](#11-how-does-the-3-tier-architecture-pattern-work)
+  - [1.2. How does the Hexagonal Architecture pattern work?](#12-how-does-the-hexagonal-architecture-pattern-work)
+  - [1.3. How does the MVC pattern work?](#13-how-does-the-mvc-pattern-work)
+  - [1.4. How does Clean Architecture work?](#14-how-does-clean-architecture-work)
+- [2. AWS and Serverless](#2-aws-and-serverless)
+  - [2.1. What is Node.js and why is it commonly used for backend development?](#21-what-is-nodejs-and-why-is-it-commonly-used-for-backend-development)
+  - [2.2. How does AWS Lambda work, and what are its main benefits?](#22-how-does-aws-lambda-work-and-what-are-its-main-benefits)
+  - [2.3. What is the best architecture for small Node.js applications using AWS?](#23-what-is-the-best-architecture-for-small-nodejs-applications-using-aws)
+  - [2.4. Why use Serverless? What are its advantages?](#24-why-use-serverless-what-are-its-advantages)
+- [3. Debugging and Problem Solving](#3-debugging-and-problem-solving)
+  - [3.1. How do you approach debugging a complex issue?](#31-how-do-you-approach-debugging-a-complex-issue)
+  - [3.2. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?](#32-what-are-the-best-approaches-to-resolve-the-typical-timeout-problem-caused-when-a-lambda-function-triggered-by-api-gateway-exceeds-30-seconds-while-managing-large-data-resulting-in-a-504-timeout)
+- [4. General Development Practices](#4-general-development-practices)
+  - [4.1. What is Infrastructure as Code (IaC)?](#41-what-is-infrastructure-as-code-iac)
+  - [4.2. How do you stay updated with the latest trends in technology?](#42-how-do-you-stay-updated-with-the-latest-trends-in-technology)
+  - [4.3. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?](#43-what-is-the-best-practice-to-manage-a-growing-monolithic-architecture-with-1000-files-of-code)
+  - [4.4. What are the advantages of a monolithic architecture?](#44-what-are-the-advantages-of-a-monolithic-architecture)
+  - [4.5. What is a REST API?](#45-what-is-a-rest-api)
+  - [4.6. What is a SOAP API?](#46-what-is-a-soap-api)
+  - [4.7. What is GraphQL?](#47-what-is-graphql)
+  - [4.8. What is the difference between SQL and NoSQL?](#48-what-is-the-difference-between-sql-and-nosql)
+  - [4.9. What is CI/CD and its advantages?](#49-what-is-cicd-and-its-advantages)
+  - [4.10. What is the difference between TypeScript and JavaScript?](#410-what-is-the-difference-between-typescript-and-javascript)
 
 ---
 
-## Architecture and Design Patterns
+## 1. Architecture and Design Patterns
 
-### 1. How does the 3-Tier Architecture pattern work?
+### 1.1. How does the 3-Tier Architecture pattern work?
 
 <details>
 <summary>Click to expand</summary>
@@ -28,7 +48,7 @@ This separation helps organize code, making it more scalable, maintainable, and 
 
 ---
 
-### 2. How does the Hexagonal Architecture pattern work?
+### 1.2. How does the Hexagonal Architecture pattern work?
 
 <details>
 <summary>Click to expand</summary>
@@ -45,7 +65,7 @@ This makes the app easier to maintain, test, and adapt to new technologies.
 
 ---
 
-### 3. How does the MVC pattern work?
+### 1.3. How does the MVC pattern work?
 
 <details>
 <summary>Click to expand</summary>
@@ -62,7 +82,7 @@ This separation makes the code easier to manage and scale.
 
 ---
 
-### 4. How does Clean Architecture work?
+### 1.4. How does Clean Architecture work?
 
 <details>
 <summary>Click to expand</summary>
@@ -80,9 +100,9 @@ This structure ensures flexibility, maintainability, and testability by keeping 
 
 ---
 
-## AWS and Serverless
+## 2. AWS and Serverless
 
-### 5. What is Node.js and why is it commonly used for backend development?
+### 2.1. What is Node.js and why is it commonly used for backend development?
 
 <details>
 <summary>Click to expand</summary>
@@ -93,7 +113,7 @@ Node.js is an open-source JavaScript runtime built on Chrome's V8 engine. It's w
 
 ---
 
-### 6. How does AWS Lambda work, and what are its main benefits?
+### 2.2. How does AWS Lambda work, and what are its main benefits?
 
 <details>
 <summary>Click to expand</summary>
@@ -110,7 +130,7 @@ Lambda is ideal for event-driven tasks like API requests, file uploads, or datab
 
 ---
 
-### 7. What is the best architecture for small Node.js applications using AWS?
+### 2.3. What is the best architecture for small Node.js applications using AWS?
 
 <details>
 <summary>Click to expand</summary>
@@ -121,7 +141,7 @@ For small Node.js apps, a serverless architecture is often the best choice. Usin
 
 ---
 
-### 8. Why use Serverless? What are its advantages?
+### 2.4. Why use Serverless? What are its advantages?
 
 <details>
 <summary>Click to expand</summary>
@@ -132,9 +152,9 @@ Serverless eliminates infrastructure management, automatically scales with deman
 
 ---
 
-## Debugging and Problem Solving
+## 3. Debugging and Problem Solving
 
-### 9. How do you approach debugging a complex issue?
+### 3.1. How do you approach debugging a complex issue?
 
 <details>
 <summary>Click to expand</summary>
@@ -147,7 +167,7 @@ My process involves breaking the issue into smaller parts to isolate the root ca
 
 ---
 
-### 10. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?
+### 3.2. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?
 
 <details>
 <summary>Click to expand</summary>
@@ -163,9 +183,9 @@ Both methods prevent 504 timeouts by handling data processing in the background.
 
 ---
 
-## General Development Practices
+## 4. General Development Practices
 
-### 11. What is Infrastructure as Code (IaC)?
+### 4.1. What is Infrastructure as Code (IaC)?
 
 <details>
 <summary>Click to expand</summary>
@@ -176,7 +196,7 @@ Infrastructure as Code (IaC) is the practice of managing and provisioning infras
 
 ---
 
-### 12. How do you stay updated with the latest trends in technology?
+### 4.2. How do you stay updated with the latest trends in technology?
 
 <details>
 <summary>Click to expand</summary>
@@ -187,7 +207,7 @@ I follow top YouTubers, subscribe to blogs, and attend webinars to stay updated 
 
 ---
 
-### 13. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?
+### 4.3. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?
 
 <details>
 <summary>Click to expand</summary>
@@ -198,7 +218,7 @@ The best approach is to shift to a microservices architecture, where the monolit
 
 ---
 
-### 14. What are the advantages of a monolithic architecture?
+### 4.4. What are the advantages of a monolithic architecture?
 
 <details>
 <summary>Click to expand</summary>
@@ -209,7 +229,7 @@ Monolithic architecture is simpler to develop and test, especially for small app
 
 ---
 
-### 15. What is a REST API?
+### 4.5. What is a REST API?
 
 <details>
 <summary>Click to expand</summary>
@@ -220,7 +240,7 @@ A REST API uses HTTP methods (GET, POST, PUT, DELETE) to allow communication bet
 
 ---
 
-### 16. What is a SOAP API?
+### 4.6. What is a SOAP API?
 
 <details>
 <summary>Click to expand</summary>
@@ -231,7 +251,7 @@ A SOAP API is a protocol for exchanging structured information using XML over HT
 
 ---
 
-### 17. What is GraphQL?
+### 4.7. What is GraphQL?
 
 <details>
 <summary>Click to expand</summary>
@@ -242,7 +262,7 @@ GraphQL is a query language for APIs that allows clients to request exactly the 
 
 ---
 
-### 18. What is the difference between SQL and NoSQL?
+### 4.8. What is the difference between SQL and NoSQL?
 
 <details>
 <summary>Click to expand</summary>
@@ -254,7 +274,7 @@ GraphQL is a query language for APIs that allows clients to request exactly the 
 
 ---
 
-### 19. What is CI/CD and its advantages?
+### 4.9. What is CI/CD and its advantages?
 
 <details>
 <summary>Click to expand</summary>
@@ -274,7 +294,7 @@ Advantages:
 
 ---
 
-### 20. What is the difference between TypeScript and JavaScript?
+### 4.10. What is the difference between TypeScript and JavaScript?
 
 <details>
 <summary>Click to expand</summary>
@@ -283,5 +303,3 @@ Advantages:
 - TypeScript: Adds static typing for error prevention, compiles to JavaScript, and is better for large projects.
 
 </details>
-
----
