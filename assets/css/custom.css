@@ -144,10 +144,6 @@ details summary:hover {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-
   .hamburger {
     display: block;
   }
@@ -174,5 +170,11 @@ details summary:hover {
   .nav-links a {
     text-align: left;
     font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    display: none;
   }
 }
