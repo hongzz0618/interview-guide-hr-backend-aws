@@ -11,6 +11,13 @@
 - [7. What are your salary expectations?](#7-what-are-your-salary-expectations)
 - [8. What do you want to ask us?](#8-what-do-you-want-to-ask-us)
 - [9. What do you do in your free time?](#9-what-do-you-do-in-your-free-time)
+- [10. What is your greatest strength?](#10-what-is-your-greatest-strength)
+- [11. What is your greatest weakness?](#11-what-is-your-greatest-weakness)
+- [12. Tell me about a time you showed leadership.](#12-tell-me-about-a-time-you-showed-leadership)
+- [13. Why do you want to leave your current role?](#13-why-do-you-want-to-leave-your-current-role)
+- [14. Tell me about something you’ve accomplished that you are proud of.](#14-tell-me-about-something-youve-accomplished-that-you-are-proud-of)
+- [15. Where do you see yourself in 5 years?](#15-where-do-you-see-yourself-in-5-years)
+- [16. Tell me about a time you had to learn something quickly.](#16-tell-me-about-a-time-you-had-to-learn-something-quickly)
 
 ---
 
@@ -66,3 +73,45 @@ I thrive in collaborative settings, enjoy tackling new challenges, and take prid
 ## **9. What do you do in your free time?**
 
 "In my free time, I enjoy exploring new technology trends and staying updated on industry developments. I also love traveling with my girlfriend, indulging in culinary experiences, and staying active with workouts to maintain a balanced lifestyle."
+
+---
+
+## **10. What is your greatest strength?**
+
+"My greatest strength is problem-solving. I excel at breaking down complex challenges into actionable steps and delivering scalable, efficient solutions by leveraging my technical expertise and collaborative skills."
+
+---
+
+## **11. What is your greatest weakness?**
+
+"I tend to be a perfectionist, occasionally over-focusing on details. However, I’ve learned to counter this by prioritizing effectively and setting deadlines to ensure timely project delivery."
+
+---
+
+## **12. Tell me about a time you showed leadership.**
+
+"During a critical migration to a serverless architecture, I led a team by coordinating tasks, resolving technical issues, and mentoring junior developers. We successfully completed the project on time and to high standards."
+
+---
+
+## **13. Why do you want to leave your current role?**
+
+"I’m seeking a role that aligns with my goals, offers new challenges, and allows me to make a greater impact while expanding my technical expertise."
+
+---
+
+## **14. Tell me about something you’ve accomplished that you are proud of.**
+
+"I'm proud of mentoring a junior team member with little experience in a specific technology. By guiding and teaching them, I helped them grow their skills and confidence, and it was rewarding to see their progress and appreciation."
+
+---
+
+## **15. Where do you see yourself in 5 years?**
+
+"In 5 years, I see myself taking on more responsibilities, potentially in a lead or architect role, driving innovation and mentoring a team. I aim to continue building expertise in cloud technologies and contribute to impactful, large-scale projects."
+
+---
+
+## **16. Tell me about a time you had to learn something quickly.**
+
+"When transitioning to a new project, I had to quickly learn AWS to implement a complex workflow. By dedicating extra hours to study the documentation and experimenting with test cases, I was able to complete the implementation ahead of schedule."
