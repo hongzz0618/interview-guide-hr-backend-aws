@@ -11,16 +11,16 @@
 
 ## Architecture and Design Patterns
 
-### **1. How does the 3-Tier Architecture pattern work?**
+### 1. How does the 3-Tier Architecture pattern work?
 
 <details>
 <summary>Click to expand</summary>
 
 The 3-Tier Architecture separates an application into three layers:
 
-1. **Presentation Tier**: The front-end or user interface (UI) that interacts with the user.
-2. **Logic Tier**: The back-end or business logic layer where data processing and application logic occur.
-3. **Data Tier**: The database layer where data is stored and managed.
+1. Presentation Tier: The front-end or user interface (UI) that interacts with the user.
+2. Logic Tier: The back-end or business logic layer where data processing and application logic occur.
+3. Data Tier: The database layer where data is stored and managed.
 
 This separation helps organize code, making it more scalable, maintainable, and easier to manage.
 
@@ -28,16 +28,16 @@ This separation helps organize code, making it more scalable, maintainable, and 
 
 ---
 
-### **2. How does the Hexagonal Architecture pattern work?**
+### 2. How does the Hexagonal Architecture pattern work?
 
 <details>
 <summary>Click to expand</summary>
 
 Hexagonal Architecture separates the core business logic of an application from external systems (like databases or APIs).
 
-- **Core**: The central business logic.
-- **Ports**: Interfaces that allow external systems to communicate with the core.
-- **Adapters**: Implementations that connect the core to external systems.
+- Core: The central business logic.
+- Ports: Interfaces that allow external systems to communicate with the core.
+- Adapters: Implementations that connect the core to external systems.
 
 This makes the app easier to maintain, test, and adapt to new technologies.
 
@@ -45,16 +45,16 @@ This makes the app easier to maintain, test, and adapt to new technologies.
 
 ---
 
-### **3. How does the MVC pattern work?**
+### 3. How does the MVC pattern work?
 
 <details>
 <summary>Click to expand</summary>
 
 MVC (Model-View-Controller) splits an app into three parts:
 
-1. **Model**: Manages data and business logic.
-2. **View**: Displays data to the user.
-3. **Controller**: Handles user input and updates the model or view.
+1. Model: Manages data and business logic.
+2. View: Displays data to the user.
+3. Controller: Handles user input and updates the model or view.
 
 This separation makes the code easier to manage and scale.
 
@@ -62,17 +62,17 @@ This separation makes the code easier to manage and scale.
 
 ---
 
-### **4. How does Clean Architecture work?**
+### 4. How does Clean Architecture work?
 
 <details>
 <summary>Click to expand</summary>
 
 Clean Architecture separates an application into layers to keep the core business logic independent of external factors. The layers are:
 
-1. **Entities**: Core business models.
-2. **Use Cases**: Application-specific logic.
-3. **Interface Adapters**: Convert data between external systems (like UI or database) and core logic.
-4. **Frameworks & Drivers**: External tools and frameworks.
+1. Entities: Core business models.
+2. Use Cases: Application-specific logic.
+3. Interface Adapters: Convert data between external systems (like UI or database) and core logic.
+4. Frameworks & Drivers: External tools and frameworks.
 
 This structure ensures flexibility, maintainability, and testability by keeping the core logic isolated from outside changes.
 
@@ -82,7 +82,7 @@ This structure ensures flexibility, maintainability, and testability by keeping 
 
 ## AWS and Serverless
 
-### **5. What is Node.js and why is it commonly used for backend development?**
+### 5. What is Node.js and why is it commonly used for backend development?
 
 <details>
 <summary>Click to expand</summary>
@@ -93,16 +93,16 @@ Node.js is an open-source JavaScript runtime built on Chrome's V8 engine. It's w
 
 ---
 
-### **6. How does AWS Lambda work, and what are its main benefits?**
+### 6. How does AWS Lambda work, and what are its main benefits?
 
 <details>
 <summary>Click to expand</summary>
 
 AWS Lambda is a serverless service that lets you run code without managing servers. You upload your code, and Lambda automatically handles scaling based on incoming requests. Its key benefits are:
 
-- **Cost Efficiency**: You only pay for compute time.
-- **Automatic Scaling**: It scales based on demand.
-- **No Server Management**: No need to manage infrastructure.
+- Cost Efficiency: You only pay for compute time.
+- Automatic Scaling: It scales based on demand.
+- No Server Management: No need to manage infrastructure.
 
 Lambda is ideal for event-driven tasks like API requests, file uploads, or database triggers.
 
@@ -110,7 +110,7 @@ Lambda is ideal for event-driven tasks like API requests, file uploads, or datab
 
 ---
 
-### **7. What is the best architecture for small Node.js applications using AWS?**
+### 7. What is the best architecture for small Node.js applications using AWS?
 
 <details>
 <summary>Click to expand</summary>
@@ -121,7 +121,7 @@ For small Node.js apps, a serverless architecture is often the best choice. Usin
 
 ---
 
-### **8. Why use Serverless? What are its advantages?**
+### 8. Why use Serverless? What are its advantages?
 
 <details>
 <summary>Click to expand</summary>
@@ -134,7 +134,7 @@ Serverless eliminates infrastructure management, automatically scales with deman
 
 ## Debugging and Problem Solving
 
-### **9. How do you approach debugging a complex issue?**
+### 9. How do you approach debugging a complex issue?
 
 <details>
 <summary>Click to expand</summary>
@@ -147,15 +147,15 @@ My process involves breaking the issue into smaller parts to isolate the root ca
 
 ---
 
-### **10. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?**
+### 10. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?
 
 <details>
 <summary>Click to expand</summary>
 
-To avoid timeouts with large data in Lambda, use **SQS** or **Step Functions**:
+To avoid timeouts with large data in Lambda, use SQS or Step Functions:
 
-- **SQS**: Send tasks to an SQS queue for asynchronous processing, avoiding API Gateway timeouts.
-- **Step Functions**: Break the task into smaller steps, allowing multiple Lambdas to process data without hitting time limits.
+- SQS: Send tasks to an SQS queue for asynchronous processing, avoiding API Gateway timeouts.
+- Step Functions: Break the task into smaller steps, allowing multiple Lambdas to process data without hitting time limits.
 
 Both methods prevent 504 timeouts by handling data processing in the background.
 
@@ -165,7 +165,7 @@ Both methods prevent 504 timeouts by handling data processing in the background.
 
 ## General Development Practices
 
-### **11. What is Infrastructure as Code (IaC)?**
+### 11. What is Infrastructure as Code (IaC)?
 
 <details>
 <summary>Click to expand</summary>
@@ -176,7 +176,7 @@ Infrastructure as Code (IaC) is the practice of managing and provisioning infras
 
 ---
 
-### **12. How do you stay updated with the latest trends in technology?**
+### 12. How do you stay updated with the latest trends in technology?
 
 <details>
 <summary>Click to expand</summary>
@@ -187,18 +187,18 @@ I follow top YouTubers, subscribe to blogs, and attend webinars to stay updated 
 
 ---
 
-### **13. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?**
+### 13. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?
 
 <details>
 <summary>Click to expand</summary>
 
-The best approach is to shift to a **microservices architecture**, where the monolith is broken into smaller, independent services. This enhances scalability, maintainability, and resilience. Changes in one service don’t affect others, limiting issues to individual services and reducing system-wide downtime. You can update and deploy services independently without impacting the entire system.
+The best approach is to shift to a microservices architecture, where the monolith is broken into smaller, independent services. This enhances scalability, maintainability, and resilience. Changes in one service don’t affect others, limiting issues to individual services and reducing system-wide downtime. You can update and deploy services independently without impacting the entire system.
 
 </details>
 
 ---
 
-### **14. What are the advantages of a monolithic architecture?**
+### 14. What are the advantages of a monolithic architecture?
 
 <details>
 <summary>Click to expand</summary>
