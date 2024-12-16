@@ -2,30 +2,49 @@
 
 ## Table of Contents
 
-- [1. Architecture and Design Patterns](#1-architecture-and-design-patterns)
-  - [1.1. How does the 3-Tier Architecture pattern work?](#11-how-does-the-3-tier-architecture-pattern-work)
-  - [1.2. How does the Hexagonal Architecture pattern work?](#12-how-does-the-hexagonal-architecture-pattern-work)
-  - [1.3. How does the MVC pattern work?](#13-how-does-the-mvc-pattern-work)
-  - [1.4. How does Clean Architecture work?](#14-how-does-clean-architecture-work)
-- [2. AWS and Serverless](#2-aws-and-serverless)
-  - [2.1. What is Node.js and why is it commonly used for backend development?](#21-what-is-nodejs-and-why-is-it-commonly-used-for-backend-development)
-  - [2.2. How does AWS Lambda work, and what are its main benefits?](#22-how-does-aws-lambda-work-and-what-are-its-main-benefits)
-  - [2.3. What is the best architecture for small Node.js applications using AWS?](#23-what-is-the-best-architecture-for-small-nodejs-applications-using-aws)
-  - [2.4. Why use Serverless? What are its advantages?](#24-why-use-serverless-what-are-its-advantages)
-- [3. Debugging and Problem Solving](#3-debugging-and-problem-solving)
-  - [3.1. How do you approach debugging a complex issue?](#31-how-do-you-approach-debugging-a-complex-issue)
-  - [3.2. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?](#32-what-are-the-best-approaches-to-resolve-the-typical-timeout-problem-caused-when-a-lambda-function-triggered-by-api-gateway-exceeds-30-seconds-while-managing-large-data-resulting-in-a-504-timeout)
-- [4. General Development Practices](#4-general-development-practices)
-  - [4.1. What is Infrastructure as Code (IaC)?](#41-what-is-infrastructure-as-code-iac)
-  - [4.2. How do you stay updated with the latest trends in technology?](#42-how-do-you-stay-updated-with-the-latest-trends-in-technology)
-  - [4.3. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?](#43-what-is-the-best-practice-to-manage-a-growing-monolithic-architecture-with-1000-files-of-code)
-  - [4.4. What are the advantages of a monolithic architecture?](#44-what-are-the-advantages-of-a-monolithic-architecture)
-  - [4.5. What is a REST API?](#45-what-is-a-rest-api)
-  - [4.6. What is a SOAP API?](#46-what-is-a-soap-api)
-  - [4.7. What is GraphQL?](#47-what-is-graphql)
-  - [4.8. What is the difference between SQL and NoSQL?](#48-what-is-the-difference-between-sql-and-nosql)
-  - [4.9. What is CI/CD and its advantages?](#49-what-is-cicd-and-its-advantages)
-  - [4.10. What is the difference between TypeScript and JavaScript?](#410-what-is-the-difference-between-typescript-and-javascript)
+<details>
+  <summary>1. Architecture and Design Patterns (4)</summary>
+
+- [1.1. How does the 3-Tier Architecture pattern work?](#11-how-does-the-3-tier-architecture-pattern-work)
+- [1.2. How does the Hexagonal Architecture pattern work?](#12-how-does-the-hexagonal-architecture-pattern-work)
+- [1.3. How does the MVC pattern work?](#13-how-does-the-mvc-pattern-work)
+- [1.4. How does Clean Architecture work?](#14-how-does-clean-architecture-work)
+
+</details>
+
+<details>
+  <summary>2. AWS and Serverless (4)</summary>
+
+- [2.1. What is Node.js and why is it commonly used for backend development?](#21-what-is-nodejs-and-why-is-it-commonly-used-for-backend-development)
+- [2.2. How does AWS Lambda work, and what are its main benefits?](#22-how-does-aws-lambda-work-and-what-are-its-main-benefits)
+- [2.3. What is the best architecture for small Node.js applications using AWS?](#23-what-is-the-best-architecture-for-small-nodejs-applications-using-aws)
+- [2.4. Why use Serverless? What are its advantages?](#24-why-use-serverless-what-are-its-advantages)
+
+</details>
+
+<details>
+  <summary>3. Debugging and Problem Solving (2)</summary>
+
+- [3.1. How do you approach debugging a complex issue?](#31-how-do-you-approach-debugging-a-complex-issue)
+- [3.2. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?](#32-what-are-the-best-approaches-to-resolve-the-typical-timeout-problem-caused-when-a-lambda-function-triggered-by-api-gateway-exceeds-30-seconds-while-managing-large-data-resulting-in-a-504-timeout)
+
+</details>
+
+<details>
+  <summary>4. General Development Practices (10)</summary>
+
+- [4.1. What is Infrastructure as Code (IaC)?](#41-what-is-infrastructure-as-code-iac)
+- [4.2. How do you stay updated with the latest trends in technology?](#42-how-do-you-stay-updated-with-the-latest-trends-in-technology)
+- [4.3. What is the best practice to manage a growing monolithic architecture with 1000+ files of code?](#43-what-is-the-best-practice-to-manage-a-growing-monolithic-architecture-with-1000-files-of-code)
+- [4.4. What are the advantages of a monolithic architecture?](#44-what-are-the-advantages-of-a-monolithic-architecture)
+- [4.5. What is a REST API?](#45-what-is-a-rest-api)
+- [4.6. What is a SOAP API?](#46-what-is-a-soap-api)
+- [4.7. What is GraphQL?](#47-what-is-graphql)
+- [4.8. What is the difference between SQL and NoSQL?](#48-what-is-the-difference-between-sql-and-nosql)
+- [4.9. What is CI/CD and its advantages?](#49-what-is-cicd-and-its-advantages)
+- [4.10. What is the difference between TypeScript and JavaScript?](#410-what-is-the-difference-between-typescript-and-javascript)
+
+</details>
 
 ---
 
