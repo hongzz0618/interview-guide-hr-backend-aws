@@ -29,7 +29,6 @@ a:focus {
 /* Navigation Styling */
 .navbar {
   background-color: #333;
-  color: white;
   padding: 8px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -70,6 +69,11 @@ a:focus {
 
 .nav-links li {
   margin: 0 15px;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: bold;
 }
 
 body {
@@ -118,11 +122,12 @@ body {
 }
 
 details summary {
+  display: list-item;
   cursor: pointer;
-  font-weight: bold;
   font-size: 0.9em;
   color: #555;
   background-color: #f7f7f7;
+  margin-bottom: 10px;
   padding: 8px 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -139,6 +144,10 @@ details summary:hover {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
   .hamburger {
     display: block;
   }
