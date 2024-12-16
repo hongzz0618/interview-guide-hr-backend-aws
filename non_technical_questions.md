@@ -1,5 +1,19 @@
 # Non-Technical HR Questions
 
+## Table of Contents
+
+- [1. Can you tell us about yourself?](#1-can-you-tell-us-about-yourself)
+- [2. Why do you want to work at our company?](#2-why-do-you-want-to-work-at-our-company)
+- [3. What would you do if you missed a deadline?](#3-what-would-you-do-if-you-missed-a-deadline)
+- [4. What is your English level?](#4-what-is-your-english-level)
+- [5. How do you handle stress or pressure at work?](#5-how-do-you-handle-stress-or-pressure-at-work)
+- [6. What motivates you to perform well in your job?](#6-what-motivates-you-to-perform-well-in-your-job)
+- [7. What are your salary expectations?](#7-what-are-your-salary-expectations)
+- [8. What do you want to ask us?](#8-what-do-you-want-to-ask-us)
+- [9. What do you do in your free time?](#9-what-do-you-do-in-your-free-time)
+
+---
+
 ## **1. Can you tell us about yourself?**
 
 "I am a Software Engineer with 5 years of experience specializing in backend development, particularly with Node.js, TypeScript, and JavaScript, in serverless architectures and AWS cloud solutions. I am passionate about solving complex problems, creating scalable systems, and optimizing workflows for greater efficiency.  
