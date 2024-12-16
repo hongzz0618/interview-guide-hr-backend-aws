@@ -117,6 +117,26 @@ body {
   overflow: hidden;
 }
 
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #555;
+  background-color: #f7f7f7;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+details[open] summary {
+  background-color: #e9ecef;
+}
+
+details summary:hover {
+  background-color: #e0e0e0;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .hamburger {
