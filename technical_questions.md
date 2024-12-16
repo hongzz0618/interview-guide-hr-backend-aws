@@ -206,3 +206,82 @@ The best approach is to shift to a **microservices architecture**, where the mon
 Monolithic architecture is simpler to develop and test, especially for small applications. All components are in one codebase, so there's no need for complex inter-service communication. It's easier to debug and can be more efficient for smaller systems, as there’s less overhead.
 
 </details>
+
+---
+
+### 15. What is a REST API?
+
+<details>
+<summary>Click to expand</summary>
+
+A REST API uses HTTP methods (GET, POST, PUT, DELETE) to allow communication between clients and servers. It is stateless, meaning each request is independent, and is known for its simplicity, scalability, and flexibility.
+
+</details>
+
+---
+
+### 16. What is a SOAP API?
+
+<details>
+<summary>Click to expand</summary>
+
+A SOAP API is a protocol for exchanging structured information using XML over HTTP, SMTP, or other transport protocols. It enforces strict standards for security and error handling, making it reliable for enterprise use.
+
+</details>
+
+---
+
+### 17. What is GraphQL?
+
+<details>
+<summary>Click to expand</summary>
+
+GraphQL is a query language for APIs that allows clients to request exactly the data they need. Unlike REST, it uses a single endpoint and reduces data over-fetching and under-fetching.
+
+</details>
+
+---
+
+### 18. What is the difference between SQL and NoSQL?
+
+<details>
+<summary>Click to expand</summary>
+
+- SQL: Relational databases with structured tables and predefined schemas (e.g., MySQL, PostgreSQL).
+- NoSQL: Non-relational databases with flexible formats, ideal for unstructured data and scalability (e.g., MongoDB, DynamoDB).
+
+</details>
+
+---
+
+### 19. What is CI/CD and its advantages?
+
+<details>
+<summary>Click to expand</summary>
+
+CI/CD automates code integration, testing, and deployment.
+
+- Continuous Integration: Regularly merges code with automated tests.
+- Continuous Deployment: Automatically deploys approved changes.
+
+Advantages:
+
+- Faster delivery.
+- Fewer errors through automation.
+- Quick feedback and iteration.
+
+</details>
+
+---
+
+### 20. What is the difference between TypeScript and JavaScript?
+
+<details>
+<summary>Click to expand</summary>
+
+- JavaScript: Dynamic, loosely typed, used for web development.
+- TypeScript: Adds static typing for error prevention, compiles to JavaScript, and is better for large projects.
+
+</details>
+
+---
