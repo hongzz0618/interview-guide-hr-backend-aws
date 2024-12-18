@@ -26,6 +26,11 @@
   - [4.8. What is the difference between SQL and NoSQL?](#48-what-is-the-difference-between-sql-and-nosql)
   - [4.9. What is CI/CD and its advantages?](#49-what-is-cicd-and-its-advantages)
   - [4.10. What is the difference between TypeScript and JavaScript?](#410-what-is-the-difference-between-typescript-and-javascript)
+  - [4.11. Why should we use frameworks?](#411-why-should-we-use-frameworks)
+  - [4.12. What are the pros and cons of Express.js?](#413-what-are-the-pros-and-cons-of-expressjs)
+  - [4.13. What are the pros and cons of Nest.js?](#414-what-are-the-pros-and-cons-of-nestjs)
+  - [4.14. What are the pros and cons of Fastify?](#415-what-are-the-pros-and-cons-of-fastify)
+  - [4.15. When should you use Nest.js, Express.js, or Fastify?](#415-when-should-you-use-nestjs-expressjs-or-fastify)
 
 ---
 
@@ -301,5 +306,77 @@ Advantages:
 
 - JavaScript: Dynamic, loosely typed, used for web development.
 - TypeScript: Adds static typing for error prevention, compiles to JavaScript, and is better for large projects.
+
+</details>
+
+---
+
+### 4.11. Why should we use frameworks?
+
+<details>
+<summary>Click to expand</summary>
+
+Frameworks offer structure, scalability, and reusable components, allowing developers to focus on the business logic rather than reinventing basic features. They help enforce best practices and reduce development time while ensuring consistency and maintainability in large projects.
+
+</details>
+
+---
+
+### 4.12. What are the pros and cons of Express.js?
+
+<details>
+<summary>Click to expand</summary>
+
+- Pros:
+  - Unmatched popularity and a huge ecosystem of extensions.
+  - Simple to learn and use, with a wealth of tutorials.
+- Cons:
+  - Outdated mechanics, lacking native async/await support.
+  - Slower than alternatives and not actively maintained.
+
+</details>
+
+---
+
+### 4.13. What are the pros and cons of Nest.js?
+
+<details>
+<summary>Click to expand</summary>
+
+- Pros:
+  - Feature-rich, covers many application concerns, including message queues.
+  - Great for teams familiar with OOP principles and frameworks like Spring or Angular.
+  - Well-documented with a vibrant community.
+- Cons:
+  - Steeper learning curve due to its opinionated structure and complex abstractions.
+  - Increased complexity for teams not experienced in advanced JavaScript.
+
+</details>
+
+---
+
+### 4.14. What are the pros and cons of Fastify?
+
+<details>
+<summary>Click to expand</summary>
+
+- Pros:
+  - Fast, lightweight, and based on Node.js/JavaScript standards.
+  - Easy to learn with minimal overhead.
+- Cons:
+  - Smaller ecosystem and community compared to Express.js and Nest.js.
+
+</details>
+
+---
+
+### 4.15. When should you use Nest.js, Express.js, or Fastify?
+
+<details>
+<summary>Click to expand</summary>
+
+- Express.js: Best for projects that need full control over the application and are built by experienced architects. It's simple and has an extensive ecosystem of middleware but may require more effort to cover advanced application concerns.
+- Nest.js: Ideal for large applications that benefit from an Object-Oriented Programming (OOP) approach, such as those with complex business logic or teams experienced with Java/Spring/Angular. It's feature-rich and well-suited for large-scale apps.
+- Fastify: A good choice for smaller apps or microservices that need to be fast and lightweight. It is Node.js/JavaScript standards-based with a shallow learning curve, but it is not as popular as Express.js or Nest.js.
 
 </details>
