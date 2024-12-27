@@ -12,6 +12,8 @@
   - [2.2. How does AWS Lambda work, and what are its main benefits?](#22-how-does-aws-lambda-work-and-what-are-its-main-benefits)
   - [2.3. What is the best architecture for small Node.js applications using AWS?](#23-what-is-the-best-architecture-for-small-nodejs-applications-using-aws)
   - [2.4. Why use Serverless? What are its advantages?](#24-why-use-serverless-what-are-its-advantages)
+  - [2.5. When to use Kubernetes and when to use Serverless?](#25-when-to-use-kubernetes-and-when-to-use-serverless)
+  - [2.6. When to use Docker?](#26-when-to-use-docker)
 - [3. Debugging and Problem Solving](#3-debugging-and-problem-solving)
   - [3.1. How do you approach debugging a complex issue?](#31-how-do-you-approach-debugging-a-complex-issue)
   - [3.2. What are the best approaches to resolve the typical timeout problem caused when a Lambda function triggered by API Gateway exceeds 30 seconds while managing large data, resulting in a 504 timeout?](#32-what-are-the-best-approaches-to-resolve-the-typical-timeout-problem-caused-when-a-lambda-function-triggered-by-api-gateway-exceeds-30-seconds-while-managing-large-data-resulting-in-a-504-timeout)
@@ -152,6 +154,36 @@ For small Node.js apps, a serverless architecture is often the best choice. Usin
 <summary>Click to expand</summary>
 
 Serverless eliminates infrastructure management, automatically scales with demand, and reduces costs by charging only for actual usage. It's ideal for building scalable, event-driven applications quickly, allowing developers to focus on writing code instead of managing servers.
+
+</details>
+
+---
+
+### 2.5. When to use Kubernetes and when to use Serverless?
+
+<details>
+<summary>Click to expand</summary>
+
+- Kubernetes is ideal when you need full control over your infrastructure, want to orchestrate containerized applications, or have complex microservices architectures that require stateful services, custom networking, and fine-grained scaling.
+- Serverless is the best choice for event-driven workloads where you don’t want to manage infrastructure. It’s suitable for applications that need automatic scaling, easy event processing, and cost savings by paying only for the resources consumed.
+
+In general, Kubernetes is more suitable for large, complex systems, while serverless is ideal for simpler applications or where infrastructure management is not a concern.
+
+</details>
+
+---
+
+### 2.6. When to use Docker?
+
+<details>
+<summary>Click to expand</summary>
+
+Docker is useful when you need to package applications and their dependencies into a container for consistency across different environments. It is ideal for:
+
+- Microservices architectures.
+- Development environments where you want to ensure consistency between local and production setups.
+- CI/CD pipelines where you need to ensure that code runs consistently regardless of the environment.
+- Portability across platforms, as Docker containers run the same on any machine that supports Docker.
 
 </details>
 
